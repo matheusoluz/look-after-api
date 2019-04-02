@@ -1,0 +1,40 @@
+{
+  "name": "invetory-diaper",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "model": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "sizes": {
+      "type": "string",
+      "required": true
+    },
+    "availableQty": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "purchasedQty": {
+      "type": "number",
+      "required": true,
+      "default": 0
+    },
+    "creatationDate": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
