@@ -1,5 +1,5 @@
 {
-  "name": "invetory-diaper",
+  "name": "Product",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
@@ -30,7 +30,12 @@
     },
     "creatationDate": {
       "type": "date",
-      "required": true
+      "required": true,
+      "default": "$now"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
     }
   },
   "validations": [],

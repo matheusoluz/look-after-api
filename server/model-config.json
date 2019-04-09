@@ -14,7 +14,7 @@
       "../node_modules/loopback-ds-computed-mixin/lib"
     ]
   },
-  "invetory-diaper": {
+  "Product": {
     "dataSource": "couchdb",
     "public": true
   }
